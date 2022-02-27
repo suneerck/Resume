@@ -740,7 +740,7 @@ a:hover {
 .s-projrct-description{
   color: #4e4e4e;
   font-size: 0.9rem;
-  margin-top: 1%;
+  margin-top: 2%;
   text-align: justify;
 }
 
@@ -923,7 +923,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  /* float: right; */
 }
 
 /*======================================
