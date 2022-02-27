@@ -737,6 +737,17 @@ a:hover {
   color: #4e4e4e;
 }
 
+.s-projrct-description{
+  color: #4e4e4e;
+  font-size: 0.9rem;
+  margin-top: 1%;
+  text-align: justify;
+}
+
+#container-project{
+  padding: 0.4rem;
+}
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -793,7 +804,7 @@ a:hover {
 
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: .8rem;
+  font-size: .75rem;
 }
 
 .work-content .w-more .w-ctegory {
