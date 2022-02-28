@@ -210,6 +210,7 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
+  margin-top: 1rem;
 }
 
 .socials .ico-circle:hover {
@@ -256,7 +257,7 @@ a:hover {
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
+/* ------/ Owl Carousel /------
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -271,21 +272,21 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #000000;
+  border: 0px solid #000000;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #000000;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: #1B1B1B;
   width: 25px;
-}
+} */
 
 /*--/ Scrolltop s /--*/
 
@@ -875,6 +876,98 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
+
+
+/*******************************/
+/******* Testimonial CSS *******/
+/*******************************/
+.testimonial {
+  position: relative;
+  margin: 45px 0;
+  padding: 90px 0;
+  /* background: #0078ff; */
+}
+
+.testimonial .container {
+  max-width: 900px;
+}
+
+.testimonial .testimonial-icon {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.testimonial .testimonial-icon i {
+  font-size: 60px;
+  color: #0078ff;
+}
+
+.testimonial .testimonial-item {
+  position: relative;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.testimonial .testimonial-img {
+  position: relative;
+  margin-bottom: 15px;
+  z-index: 1;
+}
+
+.testimonial .testimonial-item img {
+  margin: 0 auto;
+  width: 120px;
+  padding: 10px;
+  border: 4px dotted #0078ff;
+  border-radius: 100px;
+}
+
+.testimonial .testimonial-text {
+  position: relative;
+  margin-top: -70px;
+  padding: 65px 35px 30px 35px;
+  text-align: center;
+  /* background: #0078ff; */
+  /* border-radius: 500px; */
+}
+
+.testimonial .testimonial-item p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.testimonial .testimonial-text h3 {
+  color: #0078ff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.testimonial .testimonial-text h4 {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.testimonial .owl-dots {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.testimonial .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border-color: #1e1e1e;
+  background: #0062d3;
+}
+
+.testimonial .owl-dot.active {
+  background: #0078ff;
+}
+
 
 /*======================================
 //--//-->   BLOG
