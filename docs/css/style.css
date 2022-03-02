@@ -815,6 +815,7 @@ border-color: transparent #dddddd transparent transparent;
   position: relative;
   border-right: 5px solid #dddddd;
   box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+  border-radius: 0.7rem;
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
