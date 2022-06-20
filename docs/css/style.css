@@ -965,7 +965,15 @@ border-color: transparent #dddddd transparent transparent;
 .counter-num .counter {
   font-size: 2rem;
   margin-bottom: 0;
+  color: #fff;
 }
+
+.counter-plus{
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
 
 /*======================================
 //--//-->   PORTFOLIO
